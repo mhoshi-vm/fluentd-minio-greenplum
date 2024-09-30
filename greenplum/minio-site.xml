@@ -2,15 +2,15 @@
 <configuration>
     <property>
         <name>fs.s3a.endpoint</name>
-        <value>http://10.220.46.43:9000</value>
+        <value>http://192.168.202.200:9000</value>
     </property>
     <property>
         <name>fs.s3a.access.key</name>
-        <value>jC1hyxppQuVJQjaoUaau</value>
+        <value>U7CDvbEO2youn6O3efsD</value>
     </property>
     <property>
         <name>fs.s3a.secret.key</name>
-        <value>xgzd6M7WlmetZH3c0OcJl4I1GgxEN8jXxONJI84y</value>
+        <value>b1ApOVcHPw3BR4pzJlC4cnTFmjLvcc4hYCaYJgOL</value>
     </property>
     <property>
         <name>fs.s3a.fast.upload</name>
