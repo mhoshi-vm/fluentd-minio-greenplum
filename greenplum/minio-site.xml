@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <property>
+        <name>fs.s3a.proxy.host</name>
+        <value>cdw-etl</value>
+    </property>
+    <property>
+        <name>fs.s3a.proxy.port</name>
+        <value>3128</value>
+    </property>
+    <property>
         <name>fs.s3a.endpoint</name>
         <value>http://192.168.202.200:9000</value>
     </property>
