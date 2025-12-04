@@ -8,7 +8,7 @@ CREATE EXTERNAL TABLE kube_logs(
   "docker.container_id" TEXT,
   kubernetes TEXT
 )
-LOCATION ('pxf://logs/kube-logs/2024/09/10/*.json.gz?PROFILE=s3:json&SERVER=s3srvcfg&S3_SELECT=AUTO&COMPRESSION_CODEC=gzip')
+LOCATION ('pxf://logs/kube-logs/2025/11/11/*.json.gz?PROFILE=s3:json&SERVER=s3srvcfg&S3_SELECT=AUTO&COMPRESSION_CODEC=gzip')
 FORMAT 'CUSTOM' (FORMATTER='pxfwritable_import');
 
 # Getting nested values
